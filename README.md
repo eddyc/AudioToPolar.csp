@@ -1,6 +1,6 @@
 # AudioToPolar.csp
 
-Convert audio to polar signals
+Convert audio to polar array frames
 
 ### Author
 
@@ -30,12 +30,12 @@ AudioToPolar.csp
 
 | Name | Type | Rate | Minimum | Maximum | Description |
 |---|---|---|---|---|---|
-| aInput | scalar | a | -0dbfs | 0dbfs | Audio input |
+| aInput | scalar | a | -0dbfs | 0dbfs | Audio Input |
 
 
 ## Outputs 
 
 | Name | Type | Rate | Minimum | Maximum | Description |
 |---|---|---|---|---|---|
-| kmags | array | k | undefined | undefined | Magnitude array |
-| kfreqs | array | k | undefined | undefined | Frequencies array |
+| kmags | array | k | undefined | undefined | Output magnitudes |
+| kfreqs | array | k | undefined | undefined | Output frequencies |
