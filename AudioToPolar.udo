@@ -1,16 +1,11 @@
 #ifndef AUDIOTOPOLAR_UDO
 #define AUDIOTOPOLAR_UDO ##
 
-opcode AudioToPolar, k[]k[], a
+opcode AudioToPolar, kk[]k[], aii
 
-    aInput xin
-
-    iFFTFrameSize = 1024
-    iHopSize = iFFTFrameSize / 4
-
+    aInput, iFFTFrameSize, iHopSize  xin
     kFrame, kmags[], kfreqs[] AudioToPolar aInput, iFFTFrameSize, iHopSize
-
-    xout kmags, kfreqs
+    xout kframe, kmags, kfreqs
 endop
 
 #endif
