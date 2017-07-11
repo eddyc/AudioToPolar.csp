@@ -17,9 +17,33 @@
                 "description": "Audio Input",
                 "maximum": "0dbfs",
                 "minimum": "-0dbfs"
+            },
+            {
+                "name": "iFFTFrameSize",
+                "type": "scalar",
+                "rate": "i",
+                "description": "FFT Frame size Input",
+                "maximum": "4096",
+                "minimum": "1024"
+            },
+            {
+                "name": "iHopSize",
+                "type": "scalar",
+                "rate": "i",
+                "description": "FFT Hop size Input",
+                "maximum": "1024",
+                "minimum": "256"
             }
         ],
         "outputs": [
+            {
+                "name": "kframe",
+                "type": "scalar",
+                "rate": "k",
+                "description": "Output frame count",
+                "maximum": "Infinity",
+                "minimum": "0"
+            },
             {
                 "name": "kmags",
                 "type": "array",
