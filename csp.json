@@ -2,7 +2,7 @@
     "name": "AudioToPolar.csp",
     "user": "eddyc",
     "repo": "AudioToPolar.csp",
-    "version": "1.0.11",
+    "version": "1.0.0",
     "author": "Edward Costello",
     "email": "phasereset@gmail.com",
     "description": "Convert audio to polar array frames",

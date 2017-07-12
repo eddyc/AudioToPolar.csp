@@ -20,13 +20,13 @@ AudioToPolar.csp
 
 ### Version
 
-1.0.11
+1.0.0
 
 ### Dependencies
 
 
 
-## Inputs 
+## Inputs
 
 | Name | Type | Rate | Minimum | Maximum | Description |
 |---|---|---|---|---|---|
@@ -35,7 +35,7 @@ AudioToPolar.csp
 | iHopSize | scalar | i | 256 | 1024 | FFT Hop size Input |
 
 
-## Outputs 
+## Outputs
 
 | Name | Type | Rate | Minimum | Maximum | Description |
 |---|---|---|---|---|---|
